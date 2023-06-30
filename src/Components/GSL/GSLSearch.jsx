@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RollCallSearch = () => {
+const GSLSearch = () => {
   return (
     <div>
       <form>
@@ -17,4 +17,4 @@ const RollCallSearch = () => {
   )
 }
 
-export default RollCallSearch
+export default GSLSearch;

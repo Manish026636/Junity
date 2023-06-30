@@ -80,14 +80,14 @@ const Sidebar = () => {
             <img src="LogoFree.png" className="w-[13vh]" alt="" />
           </div>
 
-          <nav className="mt-10 -mx-3 space-y-6 ">
+          <nav className="mt-16 -mx-3 space-y-6 ">
             <div className="space-y-3 ">
              
 
               <CommitteDetails/>
             </div>
 
-            <div className="space-y-3 ">
+            <div className="space-y-3  ">
               <button className="flex border border-1 border-[#F0F0F0] items-center px-3 w-full py-3 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700">
                 <FcTodoList size={24}/>
                 <span className="mx-2 text-md font-bold">Roll Call</span>
