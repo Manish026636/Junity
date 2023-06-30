@@ -34,7 +34,7 @@ const RollCallCheck = () => {
                 <RollCallPagination/>
                 </div>
                 <div className='text-center mx-4 mt-2'>
-                <button type="button" class="text-white bg-[#2194FF] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300  rounded-lg text-md font-bold px-7 py-2 mr-2 mb-2 ">Submit</button>
+                <button type="button" class="text-white bg-[#2194FF] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300  rounded-xl text-md font-bold px-7 py-2 mr-2 mb-2 ">Submit</button>
 
                 </div>
             </div>
