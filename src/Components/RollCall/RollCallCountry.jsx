@@ -10,13 +10,7 @@ const RollCallCountry = () => {
     { imageUrl: "france.png", label: "FRANCE", id: "ripple-on" },
     { imageUrl: "germany.png", label: "GERMANY", id: "ripple-on" },
     { imageUrl: "russia.png", label: "RUSSIA", id: "ripple-on" },
-    { imageUrl: "australlia.png", label: "AUSTRALLIA", id: "ripple-on" },
-    { imageUrl: "france.png", label: "FRANCE", id: "ripple-on" },
-    { imageUrl: "germany.png", label: "GERMANY", id: "ripple-on" },
-
-
-
-
+    { imageUrl: "india.png", label: "INDIA", id: "ripple-on" },
   ];
 
   return (
@@ -53,14 +47,14 @@ const RollCallCountry = () => {
                 <td className="px-6 py-1">
                   <Checkbox
                     id={item.id}
-                    className="border-[#ECECEC] bg-[#FFFFFF]"
+                    className="border-gray-300 bg-[#FFFFFF]"
                     style={{ transform: "scale(1.3)" }}
                   />
                 </td>
                 <td className="px-6 py-1">
                   <Checkbox
                     id={item.id}
-                    className="border-[#ECECEC] bg-[#FFFFFF]"
+                    className="border-gray-300 bg-[#FFFFFF]"
                     color="cyan"
                     style={{ transform: "scale(1.3)" }}
                   />

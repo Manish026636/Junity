@@ -8,7 +8,7 @@ import RollCallPagination from './RollCallPagination'
 const RollCallCheck = () => {
     return (
         <div>
-            <div className=' w-full bg-[#FBFBFB]  border-2 border-[#F0F0F0] h-[90vh] rounded-3xl  '>
+            <div className=' w-full bg-[#FBFBFB]  border-2 border-[#F0F0F0] h-auto rounded-3xl pb-2 '>
                 <div className='flex justify-center items-center mt-6'>
                     <h1 className='text-3xl font-inter text-[#ADADAD] font-bold'>Roll Call</h1>
                 </div>
