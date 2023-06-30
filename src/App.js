@@ -7,7 +7,12 @@ function App() {
   return (
     <>
     
-      <RollCallDashboard/>
+    <div className="flex">
+    <Sidebar />
+    <div className="flex-grow">
+      <RollCallDashboard />
+    </div>
+  </div>
     
     </>
   );
