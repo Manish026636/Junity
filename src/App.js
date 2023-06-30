@@ -6,12 +6,9 @@ import RollCallDashboard from './Components/RollCall/RollCallDashboard';
 function App() {
   return (
     <>
-    <div className="flex">
-    <Sidebar />
-    <div className="flex-grow">
+    
       <RollCallDashboard/>
-    </div>
-  </div>
+    
     </>
   );
 }

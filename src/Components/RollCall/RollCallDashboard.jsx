@@ -1,21 +1,21 @@
 import React from 'react'
+import RollCallCheck from './RollCallCheck'
+import RollCallResult from './RollCallResult'
 
 const RollCallDashboard = () => {
     return (
         <div>
-            <div className="grid mx-4 lg:mx-20 grid-cols-1 md:grid-cols-2 gap-4">
-                <div className=" mt-10">
-                    <div className=' w-full bg-[#FBFBFB]  border-2 border-[#F0F0F0] h-[90vh] rounded-3xl  '>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 mx-2 lg:mx-20 mt-10 justify-center items-center">
+        <div>
+          <RollCallCheck/>
+        </div>
+        <div>
+            <RollCallResult/>
+        </div>
+      </div>
+      
 
-                    </div>
-                </div>
-                <div className=" mt-10">
-                    <div className="bw-full rounded-3xl bg-[#FBFBFB]  border-2 border-[#F0F0F0] h-[90vh]">
 
-                    </div>
-                </div>
-
-            </div>
         </div>
     )
 }
