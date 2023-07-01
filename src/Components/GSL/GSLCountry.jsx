@@ -96,7 +96,7 @@ const GSLCountry = () => {
               key={index}
               className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
             >
-              <th scope="row" className="px-6 py-4 font-bold text-[#4D4D4D]">
+              <th scope="row" className="px-6 py-4 text-lg font-bold text-[#4D4D4D]">
                 {item.Srno}
               </th>
               <td className="px-6 py-1">
